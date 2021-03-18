@@ -25,6 +25,7 @@ namespace xadrez
             Peca pecaCapturada = tab.retirarPeca(destino);
             tab.colocarPeca(p, destino);
         }
+
         public void realizaJogada(Posicao origem, Posicao destino)
         {
             executaMovimento(origem, destino);
