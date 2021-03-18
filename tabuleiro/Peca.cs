@@ -1,6 +1,6 @@
 ﻿using tabuleiro;
 
-namespace ChessProject.tabuleiro
+namespace tabuleiro
 {
     class Peca
     {

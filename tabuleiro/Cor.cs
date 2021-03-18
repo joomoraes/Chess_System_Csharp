@@ -1,4 +1,4 @@
-﻿namespace ChessProject.tabuleiro
+﻿namespace tabuleiro
 {
     enum Cor
     {
