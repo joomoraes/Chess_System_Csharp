@@ -18,7 +18,7 @@ namespace ChessProject
                     else
                     {
                         Tela.imprimirPeca(tab.peca(i, j));
-                        Console.Write("- ");
+                        Console.Write(" ");
                     }
                 }
                 Console.WriteLine();
