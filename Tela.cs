@@ -15,10 +15,16 @@ namespace ChessProject
             imprimirPecasCapturadas(partida);
             Console.WriteLine();
             Console.WriteLine("Turno: " + partida.turno);
-            Console.WriteLine("Aguardando jogada: " + partida.jogadorAtual);
-            if(partida.xeque)
+            if(!partida.terminada) { 
+                Console.WriteLine("Aguardando jogada: " + partida.jogadorAtual);
+                if(partida.xeque)
+                {
+                    Console.WriteLine("XEQUE!");
+                }
+            } else
             {
-                Console.WriteLine("XEQUE!");
+                Console.WriteLine("XEQUEMATE!");
+                Console.WriteLine("Vencedor: " + partida.jogadorAtual);
             }
         }
 
